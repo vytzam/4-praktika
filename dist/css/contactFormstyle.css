@@ -1,0 +1,138 @@
+* {
+    box-sizing: content-box;
+
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: #0c0c0c;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 100%;
+    margin: 50px auto;
+    /* position: relative; */
+}
+
+h4 {
+    color: white;
+    align-self: center;
+    margin: 0;
+    padding: 5px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 10px;
+}
+
+.contact {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+
+}
+
+span i {
+    color: #0c0c0c;
+    border: 5px solid #b5996e;
+    border-radius: 8px;
+
+}
+
+i {
+    background-color: #b5996e;
+    border: none;
+    padding: 0px;
+    font-size: 6px;
+
+}
+
+.adress {
+    width: 30%;
+    height: 80%;
+    margin: 2px;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.phone {
+    width: 30%;
+    height: 80%;
+    margin: 2px;
+    text-align: center;
+}
+
+.email {
+    width: 30%;
+    height: 80%;
+    margin: 2px;
+    text-align: center;
+}
+
+.grey {
+    font-size: 5px;
+    color: #4d4d4d;
+}
+
+.white {
+    font-size: 5px;
+    color: white;
+}
+
+.color {
+    font-size: 5px;
+    color: #b5996e;
+    /* width: 33%; */
+}
+
+form {
+    width: 90%;
+}
+
+input {
+    width: 100%;
+    border-radius: 5px;
+    margin: 3px;
+    border: 0px;
+    padding: 3px;
+    background-color: #141414;
+
+
+}
+
+::placeholder {
+    color: #141414;
+    font-size: 5px;
+    color: #4e4e4e;
+    padding-left: 3px;
+
+}
+
+.button {
+    border: 0px;
+    padding: 5px;
+    width: 99%;
+    background-color: #b5996e;
+    text-transform: uppercase;
+    font-size: 5px;
+}
+
+.textarea {
+    width: 100%;
+    height: 50px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.button:hover {
+    background-color: #ffc600;
+}
