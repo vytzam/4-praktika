@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/dist/css/clasyStyle.css">
+    <title>Classy Booking Form</title>
+
+</head>
+
+<body>
+    <div class="shadow"></div>
+    <h5>Classy Booking Form</h5>
+    <div class="box"> 
+        <div class="grey"></div>
+            <form action="">
+                <div class="blocks">
+                    <label for="FullName">Full Name</label>
+                    <input class="ilgas" type="text" name="FullName">
+                </div>
+                <div class="blocks">
+                    <label for="Email ID">Email ID</label>
+                    <input class="ilgas" type="text" name="EmailID">
+                </div>
+                <div class="blocks">
+                    <label for="telefone">Tel</label>
+                    <input class="ilgas" type="tel" name="telefone">
+                </div>
+                <div class="blocks">
+                    <label for="DeapartureDate">Departure Date/Time</label>
+                    <div class="date">
+                        <input type="date" name="date">
+                        <input type="time" id="appt" name="appt" min="09:00" max="18:00" required>
+                    </div>
+                </div>
+                <div class="blocks">
+                    <label for="ReturnDateTime">Return Date/Time</label>
+                    <div class="date">
+                        <input type="date" name="date">
+                        <input type="time" id="appt" name="appt" min="09:00" max="18:00" required>
+                    </div>
+                </div>
+                <div class="blocks">
+                    <label for="pickup">Pick Address</label>
+                    <input class="ilgas" type="text" class="textarea" name="PickAdress">
+                </div>
+                <div class="blocks">
+                    <label for="DestAdress">Destination Address</label>
+                    <input class="ilgas" type="text" class="textarea" name="DestAdress">
+                </div>
+                <div class="blocks">
+                    <label for="Journey">Journey type</label>
+                    <select name="Journey" id="transport">
+                        <option value="train">Train</option>
+                        <option value="plain">Plain</option>
+                        <option value="car">Car</option>
+                        <option value="ship">Ship</option>
+                    </select>
+                </div>
+                <div class="blocks">
+                    <label for="passengers"> Number of Passengers</label>
+                    <div class="NumberOF">
+                        <select name="NUmPasseng" id="value">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="blocks ilgas">
+                    <label for="AdditionMessage">Additional Message</label>
+                    <input class="ilgas" type="text" class="textarea" name="additionalM">
+                </div>
+                <div class="end">
+                    <div class="button">
+                        <input class="butt" type="submit" placeholder="Submit">
+                    </div>
+            
+        </div>
+
+
+
+        </form>
+    </div>
+    </div>
+
+
+</body>
+
+</html>

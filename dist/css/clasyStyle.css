@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    background-image: url(/dist/plain.jpg);
+    height: 100%;
+    width: 100%;
+    margin 0;
+    padding 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    position: absolute;
+}
+
+.shadow {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.8;
+    position: absolute;
+}
+
+h5 {
+    height: 40px;
+    width: auto;
+    border 0;
+    padding: 0;
+    color: white;
+    font-size: 20px;
+    position: relative;
+    text-align: center
+}
+
+form {
+    width: 100%;
+}
+
+
+.box {
+
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: auto;
+    padding: 0;
+    margin: auto;
+    width: 600px;
+    align-items: center;
+}
+
+.grey {
+    width: 600px;
+    height: 100%;
+    background-color: grey;
+    position: absolute;
+    opacity: 0.4;
+}
+
+
+label {
+    padding: 10px;
+    float: left;
+    clear: left;
+    width: 200px;
+    text-align: left;
+    color: white;
+    position: relative;
+
+
+}
+
+input {
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+
+}
+
+input.ilgas {
+    width: 308px;
+}
+
+select {
+    position: relative;
+    margin-top: 11px;
+    margin-left: 9px;
+
+}
+
+#value {
+    margin-top: 16px;
+}
+
+/* .button{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 70px;
+} */
+.end {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 71px;
+}
+
+.butt {
+    width: 150px;
+    background-color: royalblue;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+.butt:hover{
+    background-color: darkblue;
+}

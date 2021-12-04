@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #0063e5;
+    position: absolute;
+    
+}
+.container{
+    display: flex;
+    width: 600px;
+    height: 500px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 100px auto;
+    border-radius: 8px;
+    justify-content:center ;
+    /* border: 1px solid black; */
+    padding: 0px;
+
+
+
+}
+.picture img{
+    width:200px;
+    height:498px;
+    position: relative;
+    border: 2 solid black;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 8px 0 0 8px;
+
+}
+.whiteBox{
+    width: 400px;
+    height: 498px;
+    background-color: white;
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 0 8px 8px 0px;
+}
+.loginInto{
+    text-align: center;
+    margin: 28px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.inputBox{
+    display: flex;
+    flex-flow: column;
+    padding: 0px;
+    margin: 0px;
+
+}
+.iconA i{
+    position: absolute;
+    left: 20px;
+    top: 98px;
+    color: #0385c8
+    ;
+
+}
+.iconB i {
+    position: absolute;
+    left: 20px;
+    top: 155px;
+    color: #0385c8
+    ;
+}
+.entering{
+    position: relative;
+    border-radius: 15px;
+    padding: 10px;
+    padding-left: 30px;
+    margin: 10px;
+    width: 95%;
+    border: 1px solid gainsboro ;
+    
+
+
+}
+.checking {
+    padding: 10px;
+    margin: 0px;
+    
+}
+.submit {
+    text-align: center;
+}
+.submitL{
+    width: 95%;
+    height: 35px;
+    border-radius: 15px;
+    border: none;
+    background-color: #0063e5;
+    color: white;   
+}
+.submitL:hover{
+    opacity: 0.8;
+}
+.linkForget {
+    text-align: end;
+    padding-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.or{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.social {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.socialN1 {
+    width: 100px;
+    height: 30px;
+    color: white;
+    background-color: #4765a8;
+    border: none;
+}
+.socialN2 {
+    width: 100px;
+    height: 30px;
+    color: white;
+    background-color: #e03d2c;
+    border: none;
+}
+.socialN3 {
+    width: 100px;
+    height: 30px;
+    color: white;
+    background-color: #30ccfd;
+    border: none;
+}
+.border {
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 90%;
+    border-bottom: 1px solid gainsboro;
+}
+
+.dontHave {
+    text-align: center;
+}
+.socialN1:hover,.socialN2:hover, .socialN3:hover{
+    opacity: 0.8;
+}

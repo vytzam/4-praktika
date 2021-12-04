@@ -75,6 +75,9 @@ input{
     color: white;
     offset: 0;
     border: 0;
+    font-size: 5px;
+    font-weight: 10px;
+    padding: auto;
 
 
 }
@@ -97,7 +100,7 @@ input{
 }
 .button{
     background-color: #222222;
-    width: 40px;
+    width: 60px;
     height: 20px;
     color:#373431 ;
     font-size: 8px;
